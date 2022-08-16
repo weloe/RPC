@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="httpclient_rpc_server" />
+        <module name="httpclient_rpc_pojo" />
         <module name="htttpclient_rpc_client" />
+        <module name="rmi_rpc_server" />
+        <module name="rmi_rpc_api" />
+        <module name="rpc_framework" />
+        <module name="httpclient_rpc_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

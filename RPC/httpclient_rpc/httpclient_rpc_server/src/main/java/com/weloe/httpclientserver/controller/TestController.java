@@ -9,7 +9,7 @@ public class TestController {
     @RequestMapping(value = "/params",produces = {"application/json;charset=UTF-8"})
     public String params(String name,String password){
         System.out.println(name + password);
-        return "test"+"params";
+        return name+password;
     }
 
     @RequestMapping(value = "/test",produces = {"application/json;charset=UTF-8"})
