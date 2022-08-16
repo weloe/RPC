@@ -14,7 +14,6 @@
     <modules>
         <module>httpclient_rpc_server</module>
         <module>htttpclient_rpc_client</module>
-        <module>httpclient_rpc_pojo</module>
     </modules>
 
     <properties>
